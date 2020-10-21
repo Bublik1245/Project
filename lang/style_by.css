@@ -27,25 +27,35 @@ body {
     margin: 0;
     padding: 0
 }
-.l_block{display:flex;}
+
+.l_block {
+    display: flex;
+    align-items: center;
+}
+
 .lang {
-margin-top:20px;
-margin-left: 5px;
-display:flex;
-align-items:center;
-flex-direction: column;}
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .i_by {
-background: url(img/belarus.png);
-width: 32px;
-height:32px;
+    background: url(img/belarus.png);
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 5px;
 
 }
+
 .i_ru {
-background: url(img/russia.png);
-width: 32px;
-height:32px;
+    background: url(img/russia.png);
+    width: 32px;
+    height: 32px;
 
 }
+
 .header {
     display: fixed;
     width: 100%;
@@ -53,12 +63,15 @@ height:32px;
     background: url(img/BG.png);
 }
 
+.l_t {
+    margin-bottom: 0
+}
 
 .head {
     position: fixed;
     padding-left: 40px;
     padding-right: 20px;
-    margin: 0 10.2%;
+    margin: 0 10.2vw;
     width: 79vw;
     height: 70px;
     display: flex;
@@ -72,6 +85,7 @@ height:32px;
     font-style: normal;
     font-weight: 600;
     font-size: 1.82vw;
+
     line-height: 65px;
     color: #000000;
 }
@@ -120,15 +134,30 @@ height:32px;
     color: #000000;
 }
 
+.rec2 {
+    display: flex;
+    flex-direction: row;
+}
+
 .rtext2 {
+    height: 840px;
     margin-top: 20px;
     font-family: Prata;
     font-style: normal;
     font-weight: normal;
-    font-size: 6.66vw;
+    font-size: 4.5vw;
     line-height: 173px;
     padding-left: 94px;
-    padding-bottom: 117;
+    color: #000000;
+}
+
+.rtext3 {
+    margin-top: 80px;
+    margin-left: 20px;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
     color: #000000;
 }
 
@@ -168,16 +197,18 @@ height:32px;
 .about {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .pic {
+    
+    margin-right: 200px;
     display: flex;
     background: url(img/img1.png);
     margin-left: 10.2%;
     margin-top: 8.85vw;
-    width: 610px;
-height:727px;
+    width: 31.8vw;
+    height: 37vw;
 
 }
 
@@ -211,16 +242,18 @@ height:727px;
     line-height: 156.7%;
     color: black;
 }
-
+.bs {display:flex;
+    padding-right: 10.2%;}
 .sher {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 7%;
 }
 
 .carousel slide {
     display: flex;
-    margin-right: 10.2%;
+    padding-right: 10.2%;
     margin-top: 8.85vw;
     width: 100%;
     height: 100%;
@@ -228,7 +261,8 @@ height:727px;
 }
 
 .text2 {
-    width: 716px;
+    
+    width: 31.8vw;
     margin-top: 2%;
     display: flex;
     margin-right: 15.1%;
@@ -250,7 +284,7 @@ height:727px;
 }
 
 .b_text2 {
-    width: 610px;
+    width: 31.8vw;
     margin-top: 2%;
     display: flex;
     font-family: Roboto;
