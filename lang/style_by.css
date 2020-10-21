@@ -121,23 +121,14 @@ height:32px;
 }
 
 .rtext2 {
-height: 840px;
     margin-top: 20px;
     font-family: Prata;
     font-style: normal;
     font-weight: normal;
-    font-size: 6vw;
+    font-size: 6.66vw;
     line-height: 173px;
     padding-left: 94px;
-    color: #000000;
-}
-
-.rtext3 {
-    font-family: Prata;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2vw;
-    padding-left: 360px;
+    padding-bottom: 117;
     color: #000000;
 }
 
