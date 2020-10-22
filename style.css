@@ -247,6 +247,7 @@ body {
     height: 1900px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 /* Описание */
@@ -454,8 +455,9 @@ body {
     display: flex;
     align-items: center;
 }
+
 .img3 {
-    background: url(img/c_img2.jpg);
+    background: url(img/c_img2.png);
     display: flex;
     margin-right: 10.2%;
     z-index: 1;
