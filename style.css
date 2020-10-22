@@ -21,7 +21,7 @@ a:active {
 
 i {
     position: absolute;
-    top: 1840px;
+    top: 95vw;
     left: 0;
     width: 0px;
     height: 0px;
@@ -34,6 +34,11 @@ html {
 body {
     margin: 0;
     padding: 0
+}
+
+.all {
+    display: flex;
+    flex-direction: column
 }
 
 /* Header */
@@ -110,7 +115,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.8vw;
+    font-size: 1.1vw;
     transition: .5s linear;
 }
 
@@ -122,6 +127,7 @@ body {
 
 
 .submenu {
+    background: #fff;
     position: absolute;
     top: 100%;
     left: 0;
@@ -238,7 +244,7 @@ body {
 /* Main */
 .main {
     width: 100%;
-    height: 2000px;
+    height: 1900px;
     display: flex;
     flex-direction: column;
 }
@@ -289,7 +295,7 @@ body {
     font-weight: normal;
     font-size: 58.5px;
     line-height: 79px;
-    color: #000000;
+    color: black;
 }
 
 /* 1 кнопка далее */
@@ -317,6 +323,16 @@ body {
 
 /* Шерстин */
 
+.b_text1 {
+    padding-bottom: 0;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58.5px;
+    line-height: 79px;
+    color: #000000;
+}
+
 .b_text2 {
     width: 31.8vw;
     margin-top: 2%;
@@ -328,19 +344,10 @@ body {
     line-height: 156.7%;
 }
 
-.b_text1 {
-    padding-bottom: 0;
-    font-family: Prata;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 58.5px;
-    line-height: 79px;
-    color: #000000;
-}
 
 .text_block2 {
     margin-right: 200px;
-    margin-left: 10.2%;
+    margin-left: 10.2vw;
     display: flex;
     flex-direction: column;
 }
@@ -362,6 +369,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     margin-top: 7%;
 }
 
@@ -384,14 +392,74 @@ body {
     display: flex;
     padding-right: 10.2%;
     z-index: 1;
+
+    margin-top: 8.85vw;
+    padding-right: 10.2%;
 }
 
 
 .carousel slide {
     display: flex;
-    padding-right: 10.2%;
-    margin-top: 8.85vw;
     width: 100%;
     height: 100%;
 
+}
+
+/* Main2 */
+.main2 {
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+    height: 1900px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+
+/* Первый блок с родником */
+.c_text1 {
+    padding-bottom: 0;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58.5px;
+    line-height: 79px;
+    color: white;
+}
+
+.pic2 {
+
+    margin-right: 200px;
+    display: flex;
+    background: url(img/c_img1.png);
+    margin-left: 10.2vw;
+    margin-top: 8.85vw;
+    width: 31.8vw;
+    height: 37vw;
+
+}
+
+/* Второй блок с родником */
+.d_text1 {
+    padding-bottom: 0;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58.5px;
+    line-height: 79px;
+    color: #fff;
+}
+
+.about2 {
+    display: flex;
+    align-items: center;
+}
+.img3 {
+    background: url(img/c_img2.jpg);
+    display: flex;
+    margin-right: 10.2%;
+    z-index: 1;
+    margin-top: 8.85vw;
+    width: 31.8vw;
+    height: 37vw;
 }
